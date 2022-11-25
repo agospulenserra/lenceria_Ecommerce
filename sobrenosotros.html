@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lenceria Mariel | Ofrecemos el mejor servicio para que encuentres tus mallas, bikinis, pijamas, ropa interior y conjuntos intimos favoritos, al mejor precio y calidad.">
+    <meta name="keywords" content="lenceria, banfield, lomas de zamora, pijamas mujer, pijamas niños, pijamas niñas, ropa interior, mallas, bikinis, conjuntos de encaje ">
+    <title>Lenceria Mariel | Sobre nosotras</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Iconos -->
+    <script src="https://kit.fontawesome.com/77f7f937c5.js" crossorigin="anonymous"></script>
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar bg-light fixed-top header">
+          <div class="container-fluid nav_mio">
+            <a class="navbar-brand" href="#">Lenceria Mariel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header nav_color">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Mariel</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body nav_color">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobrenosotros.html">Sobre nosotras</a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Catalogo
+                    </a>
+                    <ul class="dropdown-menu header_dropdown">
+                      <li><a class="dropdown-item" href="Lingerine.html">Ropa interior</a></li>
+                      <li><a class="dropdown-item" href="mallas.html">Mallas</a></li>
+                      <li><a class="dropdown-item" href="pijamas.html">Pijamas</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                  <input class="form-control me-2 form_input" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success form_button" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container text-center">
+            <p class="sn_p1" data-aos="fade-right">
+                Nuestra lenceria abrio sus puertas en el 2013 y nos enfocamos en brindar los mejores precios, la mejor calidad y 
+                el mejor servicio para que nuestras clientas tengan una excelente experiencia al elegir sus productos. Contamos con dos
+                provadores, aire acondicionado y el mejor staff para guiarte en el proceso. Trabajamos con marcas como Andressa, So!pink,
+                 Tutta la fruta, Sweet Victorian y Anna Grant, entre otras! Tambien vendemos 
+                articulos masculinos y para niñ@s.
+            </p>
+        </section>
+
+        <section class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h1 class="sn_h1 p-3">
+                        Ubicación y horarios de atención
+                    </h1>
+        
+                    <p class="sn_p2 p-3">
+                        El local está ubicado en la calle Belgrano 1530, Banfield. Nuestros horarios de atención al público son de Lunes a Sábados
+                        de 9:30hs a 13:30hs y de 16hs a 19:30hs. Los medios de pago son: efectivo y tarjeta.
+                    </p>
+        
+                    <div class="p-3">
+                        <iframe class="sn_maps img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.499707043159!2d-58.39393928
+                        503953!3d-34.743002980423604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2a1a7710cef%3A0x168835a2252e15bb!2sBelgra
+                        no%201530%2C%20B1828ACN%20Banfield%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1669338153556!5m2!1sen!2sar"
+                         width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" 
+                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+
+    <section class="container">
+        <div class="row">
+            <form action="./enviar.php" method="post" data-aos="flip-up">
+                <fieldset>
+                    <legend>Suscribite para recibir promociones y descuentos!</legend>
+                    <div class="col-12">
+                        <label class="col-2" for="name">Nombre</label>
+                        <!-- required -->
+                        <input class="col-8" type="text" id="name" name="name" title="Por favor, ingrese su nombre." required>
+                    </div>
+                    <div class="col-12">
+                        <label class="col-2" for="lastName">Apellido</label>
+                        <input class="col-8" type="text" id="lastName" name="lastName" title="Por favor, ingrese su apellido.">
+                    </div>
+                    <div class="col-12">
+                        <label class="col-2" for="email">E-mail</label>
+                        <input class="col-8" type="email" id="email" name="email" title="Por favor, ingrese su dirección de mail." required>
+                    </div>
+                    <div class="col-12">
+                        <input class="btn-send" type="reset" value="Borrar">
+                        <input class="btn-send" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
+    </section>
+
+    <footer class="container-fluid footer">
+        <div class="row-cols-1 text-center">
+          <div class="d-flex justify-content-center align-content-center social-media">
+            <ul class="d-flex">
+              <li><a href="https://www.facebook.com/lenceriamarielok" target="_blank"><i class="fab fa-facebook icon-f" aria-hidden="true"></i></a></li>
+              <li><a href="https://instagram.com/lenceriamariel.ok?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fab fa-instagram icon-f" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+
+          <span class="text-footer">
+            &copy;2022, Lenceria Mariel. Reservados todos los derechos.
+          </span>
+        </div>
+    </footer>
+  
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Javascript Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+</body>
+</html>
